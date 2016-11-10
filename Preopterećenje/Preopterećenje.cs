@@ -11,8 +11,10 @@ namespace Vsite.CSharp
         }
 
         // TODO: Napisati statičku javno datupnu preopterećenu verziju metode MojaMetoda koja prima dva argumenta: prvi tipa int, a drugi tipa double. Metoda mora ispisati "MojaMetoda(int {0}, double {1})", broj1, broj2
-
-
+        public static void MojaMetoda(double broj1, double broj2)
+        {
+            Console.WriteLine("MojaMetoda(int {0}, double {1})", broj1, broj2);
+        }
         // TODO: Pokrenuti program i usporediti ispis sa prijašnjim.
 
 
