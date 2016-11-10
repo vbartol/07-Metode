@@ -47,7 +47,8 @@ namespace ReferentniTipKaoParametar
             Console.WriteLine();
 
             // TODO: Napisati poziv metode PromijeniIme s prosljeđenom osobom janko i novim imenom "Pero" i ispisati osobu nakon poziva te metode.
-            PromijeniIme(janko);
+            PromijeniIme(janko,"Pero");
+            Console.WriteLine(janko);
             
             Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();
